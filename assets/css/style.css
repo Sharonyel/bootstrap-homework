@@ -210,3 +210,44 @@ textarea {
   font-size: 20px;
 
 }
+/* Width at 320px and below */
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #333;
+  }
+
+  .logo {
+
+    width: 100%;
+    padding: 20px;
+
+  }
+
+  h1 {
+    padding: 20px;
+    width: 100%;
+    background-color: #4aaaa5;
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 70px;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    /* left: 52px;
+    font-family: Georgia, 'Times New Roman', Times, serif; */
+
+}
+
+  .namefld {
+    background-color: red;
+    width: 100%;
+  }
+  .links {
+    width: 100%;
+    margin-top: 40px;
+    background-color: yellow;
+  }
+}
