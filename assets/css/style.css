@@ -5,7 +5,7 @@
 
   }
   body {
-  height: 960px;
+  height: 1024px;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -83,8 +83,8 @@ a {
 
 }
 .content-mat img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   padding: 20px;
   float: left;
 }
@@ -210,8 +210,10 @@ textarea {
   font-size: 20px;
 
 }
-/* Width at 320px and below */
-@media screen and (max-width: 640px) {
+/************************************************************/
+/* * * *    99999999999 888888888888 000000000000     * * * */
+/************************************************************/
+@media screen and (max-width: 980px) {
   body {
     background-color: #333;
   }
@@ -225,29 +227,141 @@ textarea {
 
   h1 {
     padding: 20px;
-    width: 100%;
+    width: 50px; 
     background-color: #4aaaa5;
-    float: left;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    float: left; 
+    margin: 0;
+    /* margin-top: 0px; */
     height: 70px;
     text-align: center;
     color: #ffffff;
     position: fixed;
     top: 0;
-    bottom: 0;
-    /* left: 52px;
-    font-family: Georgia, 'Times New Roman', Times, serif; */
+    left: 0;
 
+}
+/* 
+  .namefld {
+    width: 100%;
+  } */
+  .links {
+    width: 50%;
+    margin-top: 40px;
+    /* background-color: green; */
+    float: right; 
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+
+/************************************************************/
+/* * * *    77777777777 66666666666  88888888888      * * * */
+/************************************************************/
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  .logo {
+
+    width: 768px;
+
+  }
+
+  h1 {
+    width: 50%; 
+    background-color: #4aaaa5;
+    margin-left: 30px;
+
+}
+  .links {
+    margin-top: 40px;
+    width: 50%;     
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 10;
+    text-align: center;
+    padding: 0 0 0 0px;
+    line-height: 100%;
+
+  }
+  .content-mat {
+    width: 93%;
+    margin-left: 30px;
+    margin-right: 25px;
+  }
+
+  .content-mat img {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+
+  }
+  
+/* Width at 640px and below */
+/************************************************************/
+/* * * *    666666666666 44444444444 000000000000     * * * */
+/************************************************************/
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #333;
+  }
+
+  .logo {
+
+    width: 100%;
+    /* padding: 20px; */
+
+  }
+
+  h1 {
+    /* padding: 20px; */
+    width: 100%;
+    background-color: #4aaaa5;
+    margin: 0 auto;
+
+    /* float: left; */
+    /* margin-bottom: 0px;
+    margin-top: 0px; */
+    height: 40px;
+    text-align: center;
+    color: #ffffff;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
 }
 
   .namefld {
-    background-color: red;
     width: 100%;
   }
   .links {
     width: 100%;
+    padding: 5px;
     margin-top: 40px;
-    background-color: yellow;
+    background-color: #dddddd;
+    text-align: center;
   }
-}
+  .content-mat {
+    width: 90%;
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+
+  .content-mat img {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+
+  }
+  /* .content-mat img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    float: left;
+  } */
+
+
+
