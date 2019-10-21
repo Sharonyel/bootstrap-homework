@@ -41,24 +41,19 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+
 .links {
   list-style: none;
   font-size: 20px;
   float: right;
+  
+  
 }
+ul {
+  list-style: none;
+  font-size: 10px;
 
- /* .nav-item {
-  list-style: none;
-  font-size: 20px;
-  float: right; 
-  color: grey;
-  text-decoration: none;
-  font-size: 18px;
-  margin-right: 32px;
-  text-align: center;
-
-}  */
-
+}
 a {
   color: grey;
   text-decoration: none;
@@ -215,35 +210,3 @@ textarea {
   font-size: 20px;
 
 }
-@media screen and (max-width: 640px) {
-  body {
-    background-color: #333;
-    /* width: 100%; */
-
-  }
-
-
-  .wraplogo {
-  width: 100%;
-   padding: 20px;
-
-   
-  }
-
-  h1 {
-    width: 100%;
-    position: fixed; 
-    top: 0;
-    bottom: 0;
-} 
-
- .namefld, 
- .linkfld {
-  width: 100%;
- 
-  }  
-   .linkfld {
-   margin-top: 40px;
-    
-
-  }
