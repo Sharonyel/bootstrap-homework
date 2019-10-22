@@ -46,8 +46,12 @@ h1 {
   list-style: none;
   font-size: 20px;
   float: right;
+  color: grey;
   
-  
+}
+
+.linkfld {
+  color: #777777;
 }
 ul {
   list-style: none;
@@ -265,7 +269,7 @@ textarea {
 
   .logo {
 
-    width: 768px;
+    width: 100%px;
 
   }
 
@@ -283,7 +287,7 @@ textarea {
     top: 0;
     right: 10;
     text-align: center;
-    padding: 0 0 0 0px;
+    margin-right: 0;
     line-height: 100%;
 
   }
@@ -312,21 +316,21 @@ textarea {
 
   .logo {
 
-    width: 100%;
+    width: 0%;
+    padding: 0;
     /* padding: 20px; */
 
   }
 
   h1 {
-    /* padding: 20px; */
+    padding: 20px;
     width: 100%;
     background-color: #4aaaa5;
     margin: 0 auto;
 
-    /* float: left; */
-    /* margin-bottom: 0px;
-    margin-top: 0px; */
-    height: 40px;
+    margin-bottom: 15px;
+    margin-top: 0px; 
+    height: 70px;
     text-align: center;
     color: #ffffff;
     /* position: fixed;
@@ -334,34 +338,34 @@ textarea {
     left: 0; */
 }
 
-  .namefld {
+  /* .namefld {
     width: 100%;
-  }
+  } */
   .links {
     width: 100%;
-    padding: 5px;
-    margin-top: 40px;
-    background-color: #dddddd;
+    padding: 20px;
+    margin-top: 70px;
+    height: 50px;
+    background-color: azure;
     text-align: center;
+    border: #777777;
+    border: 10px;
+    
   }
   .content-mat {
     width: 90%;
     margin-left: 30px;
     margin-right: 0px;
+    margin-top: 130px;
+  
   }
-
   .content-mat img {
     width: 100%;
-    max-width: 600px;
+    max-width: 620px;
     height: 400px;
 
   }
-  /* .content-mat img {
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    float: left;
-  } */
+
 
 
 
