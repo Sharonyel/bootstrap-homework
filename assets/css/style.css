@@ -193,42 +193,20 @@ color: #ffffff;
 font-size: 24px;
 
 }
-
-/* .portfolio-mat {
-min-height: 75%;
-margin-top: 100px;
-margin-left: 52px;
-margin-right: 52px;
-padding: 20px;
-background: #ffffff;
-border-color: #dddddd;
-border-width: 1px;
-border-style: solid;
-
-} */
-#img1 {
-width: 200px;
-height: 200px;
-
-} 
-
-.wrapper {
-float: left;
-margin-right: 15px;
-position: relative;
-
-}
 .portfolio-img{
-  width: 200px;
+  width: 220px;
   height: 200px;
-  float: left;
-  padding: 20px;
-  position: relative;
 }
+.wrapit {
+float: left; 
+margin-right: 15px; 
+
+
+}
+
 .img-msg {
 position: relative;
-float: left; 
-bottom: 30px;
+bottom: 50px;
 left: 0;
 width: 200px;
 height: 35px;
@@ -237,7 +215,7 @@ text-align: center;
 line-height: 35px;
 color: #ffffff;
 font-size: 20px;
-padding: 20px;
+/* padding: 20px; */
 
 }
 /************************************************************/
