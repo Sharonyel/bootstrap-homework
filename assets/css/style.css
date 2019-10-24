@@ -193,21 +193,14 @@ color: #ffffff;
 font-size: 24px;
 
 }
-.portfolio-img{
-  width: 220px;
+.card-img {
+  width: 200px;
   height: 200px;
-}
-.wrapit {
-float: left; 
-margin-right: 15px; 
-
-
+  padding: 0px;
 }
 
-.img-msg {
+.card-img-overlay {
 position: relative;
-bottom: 50px;
-left: 0;
 width: 200px;
 height: 35px;
 background: #4aaaa5;
@@ -215,8 +208,12 @@ text-align: center;
 line-height: 35px;
 color: #ffffff;
 font-size: 20px;
-/* padding: 20px; */
+padding: 0px;
 
+}
+.bg-dark {
+    width: 200px;
+    float: left;
 }
 /************************************************************/
 /* * * *    99999999999 888888888888 000000000000     * * * */
