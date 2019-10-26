@@ -13,6 +13,13 @@ Code Style
 ---
  * HTML
  * CSS
+ * Javascript
+ 
+ Bootstrap utilities used
+ ---
+ * Navbar
+ * Sticky Footer
+ * Cards
   
 List of Files
 ---
@@ -39,6 +46,15 @@ List of Files
 <img src="assets/images/screenshotaboutme.png" width=300> 
 <img src="assets/images/screenshotcontact.png" width=300> 
 <img src="assets/images/screenshotportfolio.png" width=300> 
+
+
+This page can be viewed on different size divices
+---
+
+<img src="assets/images/screenshotresp1.png" width=300> 
+<img src="assets/images/screenshotresp2.png" width=300> 
+<img src="assets/images/screenshotresp3.png" width=300> 
+<img src="assets/images/screenshotresp4.png" width=300> 
  
  Project source can be downloaded from (https://sharonyel.github.io/myportfolio/) 
  ---
