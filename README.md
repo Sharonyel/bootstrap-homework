@@ -51,10 +51,10 @@ List of Files
 This page can be viewed on different size divices
 ---
 
-<img src="assets/images/screenshotresp1.png" width=300> 
-<img src="assets/images/screenshotresp2.png" width=300> 
-<img src="assets/images/screenshotresp3.png" width=300> 
-<img src="assets/images/screenshotresp4.png" width=300> 
+<img src="assets/images/screenshotresp2.png" width=200> 
+<img src="assets/images/screenshotresp3.png" width=200> 
+<img src="assets/images/screenshotresp1.png" width=100> 
+<img src="assets/images/screenshotresp4.png" width=100> 
  
  Project source can be downloaded from (https://sharonyel.github.io/myportfolio/) 
  ---
