@@ -4,6 +4,9 @@
   box-sizing: border-box;
 
 }
+.clearfix {
+  overflow: auto;
+}
 
 html {
   height: 100%;
@@ -164,35 +167,19 @@ padding: 0px;
 .card-title {
   line-height: 35px;
 }
-.fxdfooter{
-  border: 20px solid #4aaaa5;
-  width: 100%;
-  bottom: 0;
-  position: fixed;
-  color: #ffffff;
-  }
-footer{
+
+.footer {
   background: #333;
-  margin-top: auto;
-
-
-}
-.footmsg{
-
+  border-top: 5px solid #4aaaa5;
+  margin-top: 40px;
+  flex-shrink: 0;
+  clear: both;
   text-align: center;
-  background: none;
-  color: #ffffff;
-
 }
-.green-footer {
-  border-top: 10px solid #4aaaa5;
-  width: 100%;
-  bottom: 100px;
-  padding: 20px;
-  margin-bottom: 10px;
-
-
+.footer > p {
+  margin-bottom: 0;
 }
+
 
 /************************************************************/
 /* * * *    99999999999 888888888888 000000000000     * * * */
@@ -284,7 +271,7 @@ footer{
   }
   img {
   width: 100%;
-  max-width: 550px;
+  max-width: 500px;
   padding: 20px;
   height: 450px;
 }
